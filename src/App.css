@@ -1,0 +1,364 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover:hover{
+  background-color: #202426;
+  color: aliceblue;
+  transition:.5s;
+}
+.log-out{
+  /* height: 7%; */
+  /* width: 6%; */
+  margin: 1% 0% 0% 92%;
+  position: absolute;
+  z-index: 1;
+  background-color: #d55342;
+  color: white;
+}
+.log-out:hover{
+  color: white;
+  background-color: #efc94c;
+}
+
+.navani{
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: -100px;}
+  to {top:0px}
+}
+.dark{
+  background-color: rgba(0, 0, 0, 0.457);
+  position: absolute;
+  z-index: 20;
+}
+
+.mission{
+  animation-name: mission;
+  animation-duration: 2s;  
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+@keyframes mission {
+
+  from {top: 370px;}
+  to {top:0px}
+}
+
+.peach{
+  background-color: #00baa3;
+
+  width: 100%;
+  padding: 26% 0%;
+  text-align: center;
+
+}
+.counter-32{
+  font-size:442%; 
+  margin-left:23%;
+  color: #ebe9eb;
+}
+.block{
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 0%;
+  margin-bottom: 15%;
+  
+ 
+} 
+
+.chel{
+  font-family: "Chelsea Market";
+  color: black;
+}
+.chel-white{
+  color:white;
+  font-family: "Chelsea Market";
+}
+.chel-black{
+  color:black;
+  font-family: "Chelsea Market";
+}
+.cause{
+  height: 60%;
+  width:100%
+}
+.gren-box:hover   {
+  box-shadow: 0px 0px 92px -35px #0800005c;
+}
+.gren-box:hover button{
+  color: white;
+  background-color: #00baa3;
+}
+
+
+
+.touch{
+  width:34%;
+  
+}
+.red-slide{
+  margin: 1% 1%;
+  transition: all 0.2s ease-in;
+}
+
+.red-slide:hover{
+  color: red;  
+  transform: translateX(10px);
+}
+
+
+/* ////////////////////////////////////////////////about///////////////////////////////////////// */
+.icon-heart{
+  height: 40%;
+  width: 25%;
+  box-shadow: 0px 0px 21px #00000024;
+  border: center;
+  border-radius: 50%;
+  margin: 0% 9%;
+  
+}
+.extend-line{
+  margin:2% 0%;
+  background-color: #efc94c;
+  height: 4px;
+  border-radius: 25px;
+  margin-left: 5%;
+}
+
+.extend-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 50px;
+}
+
+.extend-box {
+  height: 50px;
+  background-color: #0077FF;
+  margin-bottom: 20px;
+}
+
+.circle{
+  margin-top: -4%;
+  height: 30px;
+  width: 30px;
+ border-radius: 50%;
+  background-color: white;
+}
+.about-timeline{
+  background-color: white;
+    width: 100%;
+    margin: 2% 0%;
+    height: 7px;
+}
+.About{
+  position: relative;
+  /* background-color: #d55342; */
+  animation: about 2s;
+  /* animation-delay: 2s; */
+  /* margin-left: -50%; */
+}
+
+@keyframes about {
+  from {left: -50%;}
+  to {left:0%}
+  
+}
+/* .fa-play{
+  margin:42%;
+  color: white;
+} */
+
+.fa-play:hover{
+  color: black;
+}
+
+.about-background{
+  padding: 28% 7% 5% 5%;
+  height: 100%;
+  background-size: cover;
+  background-position: 59%;
+  background-image: url(./Components/Images/about-page-banner.jpg);
+}
+
+.timeline{
+  background-image: url(./Components/Images/about-page-banner2.jpg);
+  margin: 14% 0%;
+  padding: 9% 1%;
+}
+
+/* ///////////////////////////////////   CONTACT    //////////////////////////////////////// */
+.contact-card{
+  width: 30%;
+  background-color: rgba(128, 128, 128, 0.08);
+  padding: 4% 1%;
+    margin: 7% 2%;
+  transition: all .25s ease-in;
+  }
+
+  .div-contact-icon{
+  background-color: white;
+  }
+
+  .contact-card:hover{
+
+    background-color: #202426;
+    color: white;
+  }
+
+  .contact-card:hover div div {
+    background-color:#00baa3;
+
+  }
+.about-text:focus{
+  border: 0px solid black;
+  outline:red;
+}
+  .about-text{
+    padding: 3%;
+    border: 0px solid black;
+    width: 520px;
+    background-color: #80808029;
+  }
+  .get-quote{
+    font-weight: 500;
+    padding: 1% 6%;
+    color: white;
+    background-color: #d55342;
+    border: 0px solid white;
+  }
+  .get-quote:hover
+  {
+    background-color: #00baa3;
+  }
+
+/* /////////////////////////////////////////     NEWS       /////////////////////////////////////// */
+.news-button{
+  color: white;
+    background-color: #f86048;
+    font-weight: 500;
+    padding: 9px;
+}
+.news-button:hover{
+  background-color: #00baa3;
+}
+.news-background{
+background-image: "https://codexpeed.com/fundbux-wp/wp-content/uploads/2021/08/annie-spratt-820x461.jpg"
+}
+
+/* //////////////////////////////////////////////      SHOP      //////////////////////////////////////////// */
+.picture-size{
+  height:244px
+}
+.item-card{
+  margin: 4% 2%;
+}
+.item-button{
+  padding:4% 21% ;
+  transition: .5s;
+  border: 0px solid;
+ background-color:#ebe9eb ;
+ color:#00baa3;
+}
+
+.item-button:hover{
+  border-radius: 25px;
+  background-color: #00baa3;
+  color: white;
+}
+.item-sale{ 
+  font-family: 'Pacifico', 'cursive';
+    border-radius: 60%;
+    padding: 2%;
+    background: #00baa3;
+    margin: -3% 0% 0% -3%;
+    color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+/* /////////////////////////////////////////////LOGIN////////////////////////////////////////// */
+.login-header{
+  text-align: center;
+}
+
+.login-button-red{
+ color: black;
+ background-color: #61dafb00;
+ width: 52%;
+ font-weight: 500;
+ padding: 3% 13%;
+ margin: 5% 0% 0% 21%;
+ border: 0px solid white;
+
+}
+
+
+.login-button-yellow{
+  width: 52%;
+    font-weight: 500;
+    padding: 3% 13%;
+    color: white;
+    background-color:#efc94c;
+    border: 0px solid white;
+    margin: 5% 0% 0% 21%;
+}
+.login-button-red:hover{
+  color:#d55342;
+}
+.login-button-yellow:hover{
+  background-color:#d55342;
+}
+.login-text{
+  padding: 4% 13%;
+    border: 0px solid black;
+    width: 379px;
+    margin-top: 7%;
+    background-color: #80808029;
+    font-size: 108%;
+}
+
+.login-text:focus{
+  outline: none;
+}
